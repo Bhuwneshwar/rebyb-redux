@@ -4,7 +4,7 @@
 
 ---
 
-## **Features**
+## **Features **
 
 - 🔧 **Global State Management**: Share and manage state across your React app.
 - ⚙️ **Single and Multi-Dispatch**: Update individual or multiple properties with `dispatch` and `multiDispatch`.
