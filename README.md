@@ -18,13 +18,13 @@
 Install the package via npm:
 
 ```bash
-npm install your-package-name
+npm install rebyb-redux
 ```
 
 Or with yarn:
 
 ```bash
-yarn add your-package-name
+yarn add rebyb-redux
 ```
 
 ---
@@ -61,7 +61,7 @@ In your main file (e.g., `src/index.tsx`), wrap the app with `AppProvider` and p
 
 import React from "react";
 import ReactDOM from "react-dom";
-import { AppProvider } from "your-package-name";
+import { AppProvider } from "rebyb-redux";
 import App from "./App";
 import initialState from "./customStore";
 
@@ -81,7 +81,7 @@ In any component, use the `useRebybRedux` hook to access the global state and di
 // src/App.tsx
 
 import React from "react";
-import { useRebybRedux } from "your-package-name";
+import { useRebybRedux } from "rebyb-redux";
 import { InitialStateTypes } from "./customStore";
 
 const App: React.FC = () => {
