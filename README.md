@@ -73,7 +73,7 @@ ReactDOM.render(
 );
 ```
 
-### 3. **Access and Modify State with `useRebybRedux`**
+### 3. **Access and Modify State with `useRebybRedux `**
 
 In any component, use the `useRebybRedux` hook to access the global state and dispatch functions. For full TypeScript support, pass `InitialStateTypes` as a generic parameter to `useRebybRedux`.
 
