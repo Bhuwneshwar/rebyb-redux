@@ -19,6 +19,9 @@
     "noFallthroughCasesInSwitch": true,
     "moduleResolution": "Node"
   },
-  "include": ["src/**/*"],
+  "include": [
+    "src/**/*",
+    "../rebyb-redux-ts/src/src/components/rebybStore.tsx"
+  ],
   "exclude": ["node_modules", "dist"]
 }
