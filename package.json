@@ -1,6 +1,6 @@
 {
   "name": "rebyb-redux",
-  "version": "2.0.2",
+  "version": "2.1.1",
   "description": "rebyb-redux is a lightweight, Redux-like state management library for React applications, designed for simplicity and efficiency. Built with TypeScript, it allows developers to easily manage global state with a minimal setup. With features like customizable initial state, single and multi-dispatch capabilities, and type safety, rebyb-redux provides a straightforward API that enables developers to create responsive and maintainable applications without the complexity of traditional state management solutions. Ideal for both small and medium-sized projects, it empowers you to streamline state management while enhancing code clarity.",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
@@ -46,7 +46,7 @@
     "tslib": "^2.8.0"
   },
   "peerDependencies": {
-    "react": "^17.0.0 || ^18.0.0",
-    "react-dom": "^17.0.0 || ^18.0.0"
+    "react": "^17.0.0 || ^18.0.0 || ^19.0.0",
+    "react-dom": "^17.0.0 || ^18.0.0 || ^19.0.0"
   }
 }
